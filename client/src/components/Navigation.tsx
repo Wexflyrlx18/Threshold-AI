@@ -5,7 +5,7 @@ export default function Navigation() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 md:px-8 py-[22px] backdrop-blur-md bg-[#070709]/50 border-b border-white/[0.08]">
       <div className="flex items-center gap-[11px] font-display font-bold text-[15px] tracking-[-0.02em]">
-        <img src="/images/logo-icon.png" alt="Threshold AI" className="w-7 h-7" />
+        <img src={`${import.meta.env.BASE_URL}images/logo-icon.png`} alt="Threshold AI" className="w-7 h-7" />
         Threshold&nbsp;AI
       </div>
       <a
