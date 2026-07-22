@@ -47,7 +47,7 @@ export default function Home() {
           {/* Hero background image with overlay */}
           <div className="absolute inset-0 z-0 opacity-30">
             <img
-              src="/manus-storage/hero-bg_90c25935.png"
+              src="/images/hero-bg.png"
               alt=""
               className="w-full h-full object-cover"
               aria-hidden="true"
@@ -198,7 +198,7 @@ export default function Home() {
             <Reveal delay={0.3} className="mt-[40px]">
               <div className="relative rounded overflow-hidden border border-white/[0.08] h-[200px] md:h-[280px]">
                 <img
-                  src="/manus-storage/kill-lab_1f23c0d8.png"
+                  src="/images/kill-lab.png"
                   alt="Kill Lab — изолированная среда тестирования"
                   className="w-full h-full object-cover opacity-60"
                 />
@@ -219,7 +219,7 @@ export default function Home() {
               <Reveal delay={0.1}>
                 <TiltCard className="product-card border border-white/[0.08] rounded bg-white/[0.012] hover:border-white/30 transition-colors h-full flex flex-col overflow-hidden">
                   <div className="h-[140px] overflow-hidden relative">
-                    <img src="/manus-storage/product-tenet_32a538a6.png" alt="Tenet" className="w-full h-full object-cover opacity-50" />
+                    <img src="/images/product-tenet.png" alt="Tenet" className="w-full h-full object-cover opacity-50" />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#0d0d10] to-transparent" />
                   </div>
                   <div className="p-[30px] flex flex-col flex-1">
@@ -276,7 +276,7 @@ export default function Home() {
               <Reveal delay={0.3}>
                 <TiltCard className="product-card border border-[#e8ff52]/32 rounded bg-[#e8ff52]/[0.02] hover:border-[#e8ff52]/60 transition-colors h-full flex flex-col overflow-hidden">
                   <div className="h-[140px] overflow-hidden relative">
-                    <img src="/manus-storage/product-skynet_1e48315b.png" alt="SkyNet" className="w-full h-full object-cover opacity-50" />
+                    <img src="/images/product-skynet.png" alt="SkyNet" className="w-full h-full object-cover opacity-50" />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#0d0d10] to-transparent" />
                   </div>
                   <div className="p-[30px] flex flex-col flex-1">
@@ -562,7 +562,7 @@ export default function Home() {
           {/* Footer */}
           <footer className="max-w-[1180px] mx-auto w-full mt-[80px] pt-[64px] border-t border-white/[0.08] text-[#3e3e46] text-[13px] flex justify-between flex-wrap gap-4 tracking-[0.02em]">
             <div className="flex items-center gap-[11px] font-display font-bold text-[15px] text-[#f2f2f4] tracking-[-0.02em]">
-              <img src="/manus-storage/logo-icon_482b62d9.png" alt="Threshold AI" className="w-6 h-6" />
+              <img src="/images/logo-icon.png" alt="Threshold AI" className="w-6 h-6" />
               Threshold AI
             </div>
             <span>Continuous AI Security Testing · Defensive use only</span>
