@@ -44,13 +44,20 @@ export default function Home() {
           id="hero"
           className="min-h-screen flex flex-col justify-center px-6 md:px-8 py-[120px] relative"
         >
-          {/* Dark left-side gradient overlay for text readability */}
-          <div className="absolute inset-0 z-0 pointer-events-none">
-            <div className="absolute inset-0 bg-gradient-to-r from-[#070709] via-[#070709]/90 to-transparent" style={{ width: "60%" }} />
+          {/* Hero background image */}
+          <div className="absolute inset-0 z-0 opacity-55">
+            <img
+              src="/images/hero-bg.png"
+              alt=""
+              className="w-full h-full object-cover object-right"
+              aria-hidden="true"
+            />
           </div>
+          {/* Left gradient so text stays readable */}
+          <div className="absolute inset-0 z-[1] pointer-events-none" style={{ background: "linear-gradient(to right, #070709 40%, #070709cc 60%, transparent 80%)" }} />
 
           <div className="max-w-[1180px] mx-auto w-full relative z-10">
-            <div className="grid grid-cols-1 lg:grid-cols-[1fr_420px] gap-8 items-center">
+            <div className="grid grid-cols-1 gap-8">
               <div>
                 <div
                   className="text-[11px] tracking-[0.34em] uppercase text-[#7a7a82] font-medium mb-[30px]"
@@ -93,15 +100,7 @@ export default function Home() {
                   </a>
                 </Reveal>
               </div>
-              {/* Sphere — second column */}
-              <div className="hidden lg:flex items-center justify-center">
-                <img
-                  src="/images/hero-bg.png"
-                  alt=""
-                  aria-hidden="true"
-                  className="w-[420px] h-[420px] object-contain"
-                />
-              </div>
+
             </div>
           </div>
           <div className="step-num">01 / 06</div>
