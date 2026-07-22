@@ -45,11 +45,12 @@ export default function Home() {
           className="min-h-screen flex flex-col justify-center px-6 md:px-8 py-[120px] relative"
         >
           {/* Hero background image */}
-          <div className="absolute inset-0 z-0 opacity-55">
+          <div className="absolute inset-0 z-0 opacity-80">
             <img
               src="/images/hero-bg.png"
               alt=""
               className="w-full h-full object-cover object-right"
+              style={{ filter: "saturate(1.4) brightness(1.1)" }}
               aria-hidden="true"
             />
           </div>
